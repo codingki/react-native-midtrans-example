@@ -4,7 +4,7 @@ SNAP Midtrans payment gateway example on client side (this is not the best way t
 
 ## Preview
 
-![../media/midtrans.gif](../media/midtrans.gif)
+![./midtrans.gif](./midtrans.gif)
 
 ## Problems
 
@@ -39,7 +39,7 @@ SNAP midtrans gives response a url for the payment gateway you can use `react-na
 
   ```jsx
   // dont forget add ":" in the end of the string
-  const serverKey = 'YOURSERVERKEY:';
+  const serverKey = "YOURSERVERKEY:";
   const base64Key = base64.encode(serverKey);
   ```
 
@@ -52,14 +52,14 @@ SNAP midtrans gives response a url for the payment gateway you can use `react-na
   ```jsx
   // Transactions url/payment gateway
   const transactionsUrl =
-  	'https://app.sandbox.midtrans.com/snap/v1/transactions';
+    "https://app.sandbox.midtrans.com/snap/v1/transactions";
   ```
 
   **Production url**
 
   ```jsx
   // Transactions url/payment gateway
-  const transactionsUrl = 'https://app.midtrans.com/snap/v1/transactions';
+  const transactionsUrl = "https://app.midtrans.com/snap/v1/transactions";
   ```
 
 - Minimum transaction details (full read [here](https://snap-docs.midtrans.com/#request-body-json-parameter))
@@ -90,7 +90,7 @@ SNAP midtrans gives response a url for the payment gateway you can use `react-na
 
   ```jsx
   // dont forget add ":" in the end of the string
-  const serverKey = 'YOURSERVERKEY:';
+  const serverKey = "YOURSERVERKEY:";
   const base64Key = base64.encode(serverKey);
   ```
 
