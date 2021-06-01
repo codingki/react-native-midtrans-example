@@ -1,4 +1,4 @@
-# Midtrans Payment gateway example
+# React Native Midtrans Payment gateway example
 
 SNAP Midtrans payment gateway example on client side (this is not the best way to do this, better all the midtrans API processed on a cloud functions for better performance \*I think)
 
@@ -21,13 +21,13 @@ SNAP midtrans gives response a url for the payment gateway you can use `react-na
 ```jsx
 "dependencies": {
    "base-64": "^1.0.0",
-    "expo": "^40.0.0",
-    "expo-status-bar": "~1.0.3",
+    "expo": "^41.0.0",
+    "expo-status-bar": "~1.0.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
     "react-native-web": "~0.13.12",
-    "react-native-webview": "11.0.0"
+    "react-native-webview": "11.2.3"
 }
 ```
 
